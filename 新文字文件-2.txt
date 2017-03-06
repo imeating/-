@@ -1,0 +1,20 @@
+package students;
+public class qqq {
+	public static void main(String[] args){
+		students stud1 = new students();
+		students stud2 = new students("Chad" , "12345");
+		stud1.showAll();
+		stud1.setName("12345");
+		stud1.setDept("12345");
+		stud1.setTutoTeacher("12345");
+		stud1.showAll();
+		System.out.println(".. .. .. ..");
+		stud2.showAll();
+		stud2.setDept("123");
+		stud2.setTutoTeacher("123456");
+		System.out.println(stud2.getName() +"123456" +stud2.getDept());
+		
+	
+	}
+
+}

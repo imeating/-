@@ -1,0 +1,37 @@
+package students;
+
+public class students {
+	private String name, id, dept, tutoTeacher;
+	public students(String name1, String id1){
+		name = name1;
+		id = id1;
+	}
+	public students(){
+		
+	}
+	public void setName(String name2){
+		name = name2;
+	}
+	public void setID(String id2){
+		id = id2;
+	}
+	public void setDept(String dept2){
+		dept = dept2;
+	}
+	public void setTutoTeacher(String teacher){
+		tutoTeacher = teacher;
+	}
+	public String getName(){return name;}
+	public String getID(){return id;}
+	public String getDept(){return dept;}
+	public String getTutoTeacher(){return tutoTeacher;}
+    public void showAll(){
+    	System.out.println(".. .. .. .. .. .. ");
+    	System.out.println("name: "+this.getName());
+    	System.out.println("id: "+this.getID());
+    	System.out.println("name: "+this.getDept());
+    	System.out.println("tutoTeacher: "+this.getTutoTeacher());
+    	System.out.println(".. .. .. .. .. .. ..");
+    }
+
+}
